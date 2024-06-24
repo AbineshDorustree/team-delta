@@ -6,19 +6,40 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>3.3.1</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<relativePath/>
 	</parent>
-	<groupId>com.example</groupId>
-	<artifactId>demo</artifactId>
+	<groupId>com.delta</groupId>
+	<artifactId>user_management</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>demo</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Delta POC</description>
 	<url/>
 	<licenses>
 		<license/>
 	</licenses>
 	<developers>
-		<developer/>
+		<developer>
+		<id>developer-id</id>
+		<name>Ashwin</name>
+		<roles>
+			<role>developer</role>
+		</roles>
+		<timezone>+5.5</timezone>
+		<properties>
+			<propertyName>propertyValue</propertyName>
+		</properties>
+		</developer>
+		<developer>
+			<id>developer-id</id>
+			<name>Abinesh T V</name>
+			<roles>
+				<role>developer</role>
+			</roles>
+			<timezone>+5.5</timezone>
+			<properties>
+				<propertyName>propertyValue</propertyName>
+			</properties>
+		</developer>
 	</developers>
 	<scm>
 		<connection/>
@@ -38,7 +59,11 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+			<version>3.3.1</version>
+		</dependency>
 		<dependency>
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
